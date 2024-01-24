@@ -8,15 +8,21 @@ public class Main {
 		
 		Scanner sc = new Scanner (System.in);
 		
-		System.out.println("Digite um número: ");
+		System.out.println("Que horas são? ");
 		
-		int N = sc.nextInt();
+		int hora = sc.nextInt();
 		
-		if (N % 2 == 0) {
-			System.out.println("Par");
+		if (hora<12) {
+			System.out.println("Bom dia!");
 		}
+		else if (hora>=12 && hora<18) {
+			System.out.println("Boa Tarde! ");
+	
+			}
 		else {
-			System.out.println("Ímpar");		
+			System.out.println("Boa Noite! ");
+		
+		
 		}		
 		
 		sc.close();
