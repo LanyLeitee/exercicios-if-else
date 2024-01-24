@@ -12,12 +12,12 @@ public class Main {
 		
 		int N = sc.nextInt();
 		
-		if (N<0) {
-			System.out.println("Número Negativo");
+		if (N % 2 == 0) {
+			System.out.println("Par");
 		}
 		else {
-			System.out.println("Número Positivo");
-		}
+			System.out.println("Ímpar");		
+		}		
 		
 		sc.close();
 	}
